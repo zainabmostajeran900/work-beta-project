@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@font-face {
+  font-family: IranSans;
+  src: url("/public/iransansX\ family/IRANSansX-Regular.ttf");
+  font-display: block;
+}
+:root {
+  direction: rtl;
+  font-family: IranSans;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+@layer base {
+  *,
+  html {
+    --color-dominant-100: #f7f7f7;
+    --color-dominant-200: #f8f8f8;
+    --color-dominant-300: #f1f1f1;
+    --color-dominant-400: #eaeaea;
+    --color-dominant-500: #e3e3e3;
+    --color-grey-200: #dcdcdc;
+    --color-grey-300: #ababab;
+    --color-grey-400: #888888;
+    --color-grey-500: #7a7a7a;
+    --color-dark: #343434;
+    --color-black: #111111;
+    --color-purple-100: #4156d9;
+    --color-purple-200: #4b47ff99;
+    --color-red: #ff2727;
+  }
+}
