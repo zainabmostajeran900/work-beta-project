@@ -1,11 +1,11 @@
 export const HotMagazine: React.FC = () => {
   return (
     <div className=" w-full px-8  md:mt-8">
-      <h5 className="text-[#111111] font-bold text-lg mt-6">
+      <h5 className="text-[#111111] font-bold text-lg mt-10 md:mt-6 py-6 md:py-0">
         مجله های داغ و محبوب اماکن تفریحی
       </h5>
       <div className="flex flex-col  items-center gap-y-4 py-10 justify-center lg:flex-row lg:justify-between  lg:items-center gap-x-3 ">
-        <div className=" flex flex-col items-center justify-center bg-white p-4 lg:flex-row lg:items-start lg:justify-center lg:gap-x-3 gap-x-5 rounded-lg">
+        <div className=" flex flex-col items-center justify-center bg-white  lg:flex-row lg:items-start lg:justify-center lg:gap-x-3 gap-x-5 rounded-lg">
           <div className="relative">
             <img
               src="/Rectangle 70400.png"

@@ -1,7 +1,7 @@
 export const Pagination: React.FC = () => {
   return (
     <div>
-      <div className="mt-3 md:mt-16 md:pb-20 flex flex-wrap gap-4 items-center justify-center">
+      <div className="mt-3 pb-10 md:mt-16 md:pb-20 flex flex-wrap gap-4 items-center justify-center">
         <div className="bg-[#EAEAEA] w-[50px] h-[50px] md:w-[60px] md:h-[60px] rounded-lg relative hover:bg-gray-300">
           <img
             src="/arrow-square-right.svg"
