@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="w-full overflow-x-hidden">
       <Navbar />
-      <div className=" w-full px-3 pt-30 lg:pt-19  min-h-screen">
+      <div className=" w-full px-3 pt-5 md:pt-30 lg:pt-19  min-h-screen">
         <div className="max-w-[1400px] mx-auto">
           <div className="hidden lg:block">
             <TopHeader />
