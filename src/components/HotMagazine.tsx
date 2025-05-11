@@ -71,10 +71,10 @@ export const HotMagazine: React.FC = () => {
               <div className="flex items-center justify-center gap-x-3">
                 <img src="/Group 1818.png" alt="1" />
                 <div className="flex flex-col gap-y-2">
-                  <h3 className="text-purple-100 font-bold">
+                  <h3 className="text-purple-100 font-bold text-nowrap">
                     نشانی جدید جنگل ابر کجاست؟
                   </h3>
-                  <p className="text-[#5E5E5E] font-bold">
+                  <p className="text-[#5E5E5E] font-bold text-nowrap">
                     از زیباترین مناطق ایران در جنگل ابرکه{" "}
                   </p>
                 </div>
