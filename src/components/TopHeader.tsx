@@ -1,6 +1,6 @@
 export const TopHeader: React.FC = () => {
   return (
-    <div className="w-full h-22 bg-[#F1F1F1] px-7 shadow shadow-gray-300 flex text-nowrap items-center justify-center gap-3 md:gap-5">
+    <div className="w-full h-22 bg-[#F1F1F1] px-10 shadow shadow-gray-300 flex text-nowrap items-center justify-center gap-3 md:gap-5">
       <div className="flex items-center gap-3">
         <button className="bg-white rounded-lg p-2 cursor-pointer hidden md:block ">
           <img src="/arrow-square-lft.png" alt="arrowRight" />
@@ -17,13 +17,13 @@ export const TopHeader: React.FC = () => {
         <button className="font-bold hidden lg:block bg-white px-4 py-3 text-sm rounded-lg cursor-pointer hover:bg-gray-700 hover:text-white">
           سفرهای ایمن
         </button>
-          <button className="font-bold  bg-purple-100 px-4 py-3  text-white text-sm rounded-lg cursor-pointer hover:bg-gray-700">
+          <button className="font-bold  bg-purple-100 px-2 md:px-4 py-3  text-white text-sm rounded-lg cursor-pointer hover:bg-gray-700">
             اماکن تفریحی
           </button>
-          <button className="font-bold bg-white px-4 py-3  hover:bg-gray-700 text-sm rounded-lg cursor-pointer hover:text-white">
+          <button className="font-bold bg-white px-2 md:px-4 py-3  hover:bg-gray-700 text-sm rounded-lg cursor-pointer hover:text-white">
             اماکن توریستی
           </button>
-          <button className="font-bold bg-white px-4 py-3  hover:bg-gray-700 text-sm rounded-lg cursor-pointer hover:text-white">
+          <button className="font-bold bg-white px-2 md:px-4 py-3  hover:bg-gray-700 text-sm rounded-lg cursor-pointer hover:text-white">
             همه مقالات
           </button>
       </div>
