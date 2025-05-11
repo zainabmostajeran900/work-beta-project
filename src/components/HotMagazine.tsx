@@ -1,6 +1,6 @@
 export const HotMagazine: React.FC = () => {
   return (
-    <div className=" w-full   px-8  md:md:mt-8">
+    <div className=" w-full px-8  md:mt-8">
       <h5 className="text-[#111111] font-bold text-lg mt-6">
         مجله های داغ و محبوب اماکن تفریحی
       </h5>
@@ -67,7 +67,7 @@ export const HotMagazine: React.FC = () => {
         </div>
         <div className="flex flex-col gap-y-5 items-center justify-center">
           <div className="border-r-4 border-r-purple-100 p-1 rounded-xs hover:bg-gray-300 cursor-pointer">
-            <div className="bg-white p-3 rounded-lg flex justify-between items-center gap-x-3 w-[450px]">
+            <div className="bg-white px-10 py-3 md:p-3 rounded-lg flex justify-between items-center gap-x-3 w-[450px]">
               <div className="flex items-center justify-center gap-x-3">
                 <img  src="/Group 1818.png" alt="1" />
                 <div className="flex flex-col gap-y-2">
@@ -88,7 +88,7 @@ export const HotMagazine: React.FC = () => {
           </div>
 
           <div className="border-r-4 border-gray-300 p-1 rounded-xs  hover:bg-gray-300 cursor-pointer">
-            <div className="bg-white p-3 rounded-lg flex gap-x-3 w-[450px]">
+            <div className="bg-white px-10 py-3 md:p-3 rounded-lg flex gap-x-3 w-[450px]">
               <img src="/Group 1818.png" alt="2" />
               <div className="flex flex-col gap-y-2">
                 <h3 className="font-bold text-[#111111]">
@@ -101,7 +101,7 @@ export const HotMagazine: React.FC = () => {
             </div>
           </div>
           <div className="border-r-4 border-r-gray-300 p-1 rounded-xs hover:bg-gray-300 cursor-pointer">
-            <div className="bg-white p-3 rounded-lg flex gap-x-3 w-[450px]">
+            <div className="bg-white px-10 py-3 md:p-3 rounded-lg flex gap-x-3 w-[450px]">
               <img src="/Group 1845.png" alt="3" />
               <div className="flex flex-col gap-y-2">
                 <h3 className="font-bold text-[#111111]">
@@ -114,7 +114,7 @@ export const HotMagazine: React.FC = () => {
             </div>
           </div>
           <div className="border-r-4 border-r-gray-300 p-1 rounded-xs hover:bg-gray-300 cursor-pointer">
-            <div className="bg-white p-3 rounded-lg flex gap-x-3 w-[450px]">
+            <div className="bg-white px-10 py-3 md:p-3 rounded-lg flex gap-x-3 w-[450px] ">
               <img src="/Group 1784.png" alt="4" />
               <div className="flex flex-col gap-y-2">
                 <h3 className="font-bold text-[#111111]">

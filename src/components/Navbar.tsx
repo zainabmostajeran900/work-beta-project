@@ -5,8 +5,8 @@ export const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="w-full bg-white shadow-md py-3 px-4 md:px-8 font-bold fixed z-50 top-0">
-      <div className="max-w-[1200px] mx-auto flex flex-col md:flex-col lg:flex-row items-center justify-between py-2 md:py-0">
+    <div className=" bg-white  px-8 shadow-md py-3 md:px-8 font-bold sticky z-50 top-0">
+      <div className="flex flex-col md:flex-col lg:flex-row items-center justify-between py-2 md:py-0">
         <div className="md:block lg:hidden lg:p-0 pb-4">
           <div className="hidden md:flex md:w-full md:justify-center  bg-[#F8F8F8] gap-x-3 md:gap-x-6 py-2 px-6  shadow-[0px_4px_4px_rgba(0,0,0,0.25)] rounded-lg md:order-1 lg:order-none">
             <button className="hover:text-purple-100 text-[#111111]">صفحه اصلی</button>
@@ -93,6 +93,6 @@ export const Navbar: React.FC = () => {
           <button className="py-2 text-[#111111] hover:text-purple-100">راه‌های ارتباطی</button>
         </div>
       )}
-    </nav>
+    </div>
   );
 };

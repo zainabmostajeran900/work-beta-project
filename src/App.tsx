@@ -10,27 +10,29 @@ import { Footer } from "./components/Footer";
 
 function App() {
   return (
-    <>
+    <div className="w-full overflow-x-hidden">
       <Navbar />
-      <div className="container max-w-[1400px] pt-30 lg:pt-19 mx-auto bg-[#F8F8F8]">
-        <div className="hidden lg:block">
-          <TopHeader />
+      <div className=" w-full px-3 pt-30 lg:pt-19  min-h-screen">
+        <div className="max-w-[1400px] mx-auto">
+          <div className="hidden lg:block">
+            <TopHeader />
+          </div>
+          <SearchInput />
+          <div className="block lg:hidden">
+            <TopHeader />
+          </div>
+          <HotMagazine />
+          <NewMagazine />
+          <BlogsComponent />
+          <OldBlogs />
+          <Pagination />
         </div>
-        <SearchInput />
-        <div className="block lg:hidden">
-          <TopHeader />
+        <div className="bg-[#F8F8F8]">
+          {" "}
+          <Footer />
         </div>
-        <HotMagazine />
-        <NewMagazine />
-        <BlogsComponent />
-        <OldBlogs />
-        <Pagination />
       </div>
-      <div className="bg-[#F8F8F8]">
-        {" "}
-        <Footer />
-      </div>
-    </>
+    </div>
   );
 }
 
