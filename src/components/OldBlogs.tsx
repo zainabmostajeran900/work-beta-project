@@ -26,8 +26,8 @@ export const OldBlogs: React.FC = () => {
             <p className="text-[#5E5E5E] font-medium text-sm mt-2">
               {el.description}
             </p>
-            <div className="flex justify-between items-center mt-10">
-              <button className="border border-[#DCDCDC] px-6 py-2 pb-2.5 text-purple-100 font-bold rounded-lg hover:bg-gray-700 hover:text-white">
+            <div className="flex justify-between items-center gap-x-2 mt-10">
+              <button className="border border-[#DCDCDC] text-nowrap px-3 md:px-6 py-2 pb-2.5 text-purple-100 font-bold rounded-lg hover:bg-gray-700 hover:text-white">
                 مطالعه بیشتر
               </button>
               <div className="flex gap-1.5 text-[#5E5E5E] font-medium">
@@ -58,7 +58,7 @@ export const OldBlogs: React.FC = () => {
               {el.description}
             </p>
             <div className="flex justify-between gap-x-2  items-center mt-10">
-              <button className="border text-nowrap border-[#DCDCDC] px-6 py-2 pb-2.5 text-purple-100 hover:bg-gray-700 hover:text-white font-bold rounded-lg">
+              <button className="text-nowrap text-base border  border-[#DCDCDC] px-3 md:px-6 py-2 pb-2.5 text-purple-100 hover:bg-gray-700 hover:text-white font-bold rounded-lg">
                 مطالعه بیشتر
               </button>
               <div className="flex gap-1.5 text-[#5E5E5E] font-medium">

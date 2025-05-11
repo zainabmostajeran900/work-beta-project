@@ -246,7 +246,7 @@ export const Footer: React.FC = () => {
                 <p className="text-[#111111] font-semibold text-sm">
                   09912366290{" "}
                 </p>
-                <button className="text-white bg-purple-100 px-6 py-2 rounded-lg">
+                <button className="text-white text-nowrap bg-purple-100 px-6 py-2 rounded-lg">
                   ثبت شماره
                 </button>
               </div>
